@@ -1,4 +1,4 @@
-  import typish from './typewriter.js'
+﻿  import typish from './typewriter.js'
   import CountUp from 'countup.js'
   // preload
   let s1 = require('../images/i-miss-u.png')
@@ -13,7 +13,7 @@
       .type('/**', '<span class="note">')
       .type('0', '<br>')
       .type('00', '<span class="blank">')
-      .type('今天高先生教你写代码呀', '<span class="note">')
+      .type('今天臭傻逼教你写代码呀', '<span class="note">')
       .type('0', '<br>')
       .type('00', '<span class="blank">')
       .wait(10)
@@ -52,9 +52,9 @@
       .type('boy', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'gaoyf'", '<span class="green">')
+      .type("'臭傻逼'", '<span class="green">')
       .wait(15)
-      .del(6)
+      .del(5)
       .type("'高毅峰'", '<span class="green">')
       .type(',', '<span class="gray">')
       .type('0', '<br>')
@@ -63,7 +63,7 @@
       .type('girl', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'蔡婷婷'", '<span class="green">')
+      .type("'张一诺'", '<span class="green">')
       .type(',', '<span class="gray">')
       .type('0', '<br>')
       // time
@@ -71,7 +71,7 @@
       .type('start', '<span class="gray">')
       .type(':', '<span class="blue">')
       .type('0', '<span class="blank">')
-      .type("'2012-09-01'", '<span class="green">')
+      .type("'2017-10-28'", '<span class="green">')
       .type('0', '<br>')
       .type('00', '<span class="blank">')
       .type('}', '<span class="gray">')
@@ -225,8 +225,8 @@
     }, 2000)
   }
   function count() {
-    const date = new Date('2009-09-01 00:00:00')
-    let end = Date()
+    const date = new Date('2017/10/28 00:00:00')
+    let end = new Date()
     let seconds = (Date.parse(end) - Date.parse(date)) / 1000
     let days = Math.floor(seconds / (3600 * 24))
     let timer = document.querySelector('#timer')

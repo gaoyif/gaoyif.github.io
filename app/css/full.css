@@ -13,6 +13,13 @@ body {
 #typer {
   font-size: initial;
 }
+.startsContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+}
 span {
   margin: 0.05rem 0;
   font-size: 0.16rem;
